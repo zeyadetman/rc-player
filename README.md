@@ -5,8 +5,11 @@ A simple react component to play and control audio file built on <audio> html5 e
 
 ## Installation and Usage
 
+[![NPM](https://nodei.co/npm/rc-player.png)](https://nodei.co/npm/rc-player/)
+
 `npm i rc-player`
 
+Playground: https://codesandbox.io/s/rc-player-ej2f8
 
 ## Props
 

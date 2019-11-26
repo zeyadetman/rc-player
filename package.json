@@ -6,7 +6,11 @@
   },
   "private": false,
   "description": "A simple react component to play and control audio file built on <audio> html5 element.",
-  "keywords": ["react", "player", "audio"],
+  "keywords": [
+    "react",
+    "player",
+    "audio"
+  ],
   "main": "dist/index.js",
   "repository": {
     "type": "git",
@@ -24,12 +28,6 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.2.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.6.2",
-    "@babel/core": "^7.6.2",
-    "@babel/preset-env": "^7.6.2",
-    "@babel/preset-react": "^7.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -55,5 +53,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0"
   }
 }
